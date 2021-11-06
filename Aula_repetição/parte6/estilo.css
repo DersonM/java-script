@@ -1,0 +1,22 @@
+body {
+    background-color: bisque;
+    text-align: center;
+}
+header {
+    color: cadetblue;
+    text-align: center;
+}
+section {
+    background-color:rgba(84, 190, 155, 0.479) ;
+    border-radius: 15px ;
+    padding: 18px;
+    width: 450px;
+    margin: auto;
+    box-shadow: 2px 2px 8px rgba(19, 43, 35, 0.479);
+}
+
+footer {
+    color: brown;
+    text-align: center;
+    font-style: italic;
+}

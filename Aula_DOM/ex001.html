@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Prendendo Dom</title>
+    <style>
+        body {
+            background: rgb(68, 128, 197) ;
+            color: azure;
+            font: 15px Arial;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>iniciando estudos com DOM </h1>
+    <p>aqui vai o resultado</p>
+    <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript.</p>
+    <div id = "msg">Clique em min</div>
+    <script>
+        var corpo = window.document.body
+        var p1 = window.document.getElementsByTagName ('p')[0]
+        var p2 = window.document.getElementsByTagName ('p') [1]
+        var v = window.document.getElementById ('msg')
+        document.write(p1.innerText)
+        document.write(p2.innerHTML)
+        v.style.background ='black'
+        //v.innerText = 'Estou aguadando'
+        var d = window.document.getElementsByName('msg')[0]
+        v.innerText = 'Óla mundo'
+
+    </script>
+</body>
+</html>

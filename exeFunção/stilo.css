@@ -1,0 +1,25 @@
+body {
+    background-color: aquamarine;
+    text-align: center;
+}
+header {
+    color: rgba(137, 43, 226, 0.699);
+}
+section {
+    background-color: rgb(32, 209, 200);
+    border-radius: 15px;
+    padding: 18px;
+    width: 450px;
+    margin: auto;
+    box-shadow: 3px 3px 10px;
+}
+select#lista {
+    width: 150px;
+    text-align: left;
+}
+footer {
+    color: rgb(175, 81, 5);
+    text-align: center;
+    font-style: italic;
+    padding: 15px;
+}
